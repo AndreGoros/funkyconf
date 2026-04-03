@@ -1,4 +1,4 @@
-# funkyconf 🎛️
+# funkyconf 
 
 > Build complex YAML/JSON configs as **pure-function compositions** — no more fragile manual files.
 
