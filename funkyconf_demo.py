@@ -8,8 +8,6 @@ import json
 import os
 import tempfile
 
-sys.path.insert(0, os.path.dirname(__file__))
-
 from funkyconf import Node, attr, Schema, Tree, ValidationError, blueprint, build, export
 
 # ─── Colores para la terminal ────────────────────────────────────────────────
