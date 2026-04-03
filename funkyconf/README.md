@@ -258,8 +258,4 @@ pip install "funkyconf[dev]"
 pytest
 ```
 
----
 
-## License
-
-MIT
