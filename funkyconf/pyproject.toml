@@ -1,6 +1,7 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "funkyconf"
@@ -30,9 +31,9 @@ yaml = ["pyyaml>=6.0"]
 dev  = ["pyyaml>=6.0", "pytest>=8.0", "pytest-cov"]
 
 [project.urls]
-Homepage   = "https://github.com/yourname/funkyconf"
-Repository = "https://github.com/yourname/funkyconf"
-Issues     = "https://github.com/yourname/funkyconf/issues"
+Homepage   = "https://github.com/AndreGoros/funkyconf"
+Repository = "https://github.com/AndreGoros/funkyconf"
+Issues     = "https://github.com/AndreGoros/funkyconf/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
